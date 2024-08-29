@@ -14,6 +14,8 @@ Contents
 --------
 
 .. toctree::
+   :maxdepth: 2
+
 
    Getting Started 
    Data upload
