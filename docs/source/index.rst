@@ -16,8 +16,6 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-
-   Getting Started 
-   Data upload
-   Retirement rules
-   Data export
+   gettingstarted 
+   dataupload
+   dataexport
