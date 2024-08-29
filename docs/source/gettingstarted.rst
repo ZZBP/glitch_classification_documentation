@@ -6,29 +6,17 @@ Getting Started
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+Ensure Python3 and Pip are correctly installed on your local machine by running:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   python --version && pip --version
 
-Creating recipes
-----------------$
+Installing the Panoptes Client
+------------------------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+The Panoptes client is necessary for the programmatic management of your Zooniverse projects. Install it using the following command:
 
-.. autofunction:: lumache.get_random_ingredients
+.. code-block:: console
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   pip install panoptescli
